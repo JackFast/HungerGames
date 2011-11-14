@@ -1,0 +1,8 @@
+Hunger Games To Do List:
+- Administrate players + spectators
+
+
+FUTURE
+- Add HUNGER to the games
+- Record Player Coords in player_coords table
+- 

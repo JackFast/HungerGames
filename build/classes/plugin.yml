@@ -1,0 +1,32 @@
+name: HungerGames
+main: com.nilla.hungergames.HungerGames
+version: 1.01
+website: http://sacredlabyrinth.net
+description: Hunger Games Plugin
+authors:
+  - EvilNilla
+softdepend: [Permissions, PermissionsBukkit, WorldBorder, WorldGuard, WorldEdit]
+commands:
+  hg:
+    alias: hungergames
+    description: All of the HungerGames commands
+    usage: Syntax error, verify the command usage and try again  
+permissions:
+  hungergames.admin.*:
+    description: Access to all Admin functions
+  hungergames.admin.debug:
+    description: Can enable/disable debug messages
+  hungergames.admin.create:
+    description: Can create worlds
+  hungergames.admin.delete:
+    description: Can delete worlds
+  hungergames.admin.start:
+    description: Can Start a games
+  hungergames.admin.stop:
+    description: Can Stop a games
+  hungergames.admin.set:
+    description: Can Set Parameters for games
+  hungergames.admin.player:
+    description: Can Administrate Players in games
+  hungergames.admin.spectator:
+    description: Can Administrate Spectators in games    
